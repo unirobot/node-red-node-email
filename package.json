@@ -4,7 +4,7 @@
   "description": "Node-RED nodes to send and receive simple emails",
   "dependencies": {
     "imap": "^0.8.19",
-    "mailparser": "^0.6.2",
+    "mailparser-mit": "git+https://github.com/unirobot/mailparser-mit.git",
     "nodemailer": "^4.6.4",
     "poplib": "^0.1.7"
   },
