@@ -1,11 +1,11 @@
 {
   "name": "node-red-node-email",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node-RED nodes to send and receive simple emails",
   "dependencies": {
     "imap": "^0.8.19",
     "mailparser-mit": "git+https://github.com/unirobot/mailparser-mit.git",
-    "nodemailer": "^4.6.4",
+    "nodemailer": "^6.2.1",
     "poplib": "^0.1.7"
   },
   "repository": {
