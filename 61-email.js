@@ -65,7 +65,7 @@ module.exports = function(RED) {
             port: node.outport,
             secure: node.secure,
             tls: {rejectUnauthorized: node.tls}
-        }
+        };
 
         if (this.userid && this.password) {
             smtpOptions.auth = {
