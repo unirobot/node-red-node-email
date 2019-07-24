@@ -206,8 +206,9 @@ module.exports = function(RED) {
             msg.payload = mailMessage.text;
             msg.topic = mailMessage.subject;
             msg.date = mailMessage.date;
-            msg.header = {};
-            mailMessage.headers.forEach((v, k) => {msg.header[k] = v;});
+            // msg.header = {};
+            // mailMessage.headers.forEach((v, k) => {msg.header[k] = v;});
+            msg.header = mailMessage.headers;
 
             if (mailMessage.html) { msg.html = mailMessage.html; }
             if (mailMessage.to && mailMessage.to.length > 0) { msg.to = mailMessage.to; }
