@@ -69,3 +69,9 @@ Alternatively you may provide `msg.attachments` which should contain an array of
 more attachments in <a href="https://www.npmjs.com/package/nodemailer#attachments" target="_new">nodemailer</a> format.
 
 Uses the *nodemailer* npm module.
+
+## Unit Test
+
+1. copy `.setting_templeate.json` to `.setting.json`
+2. edit `.setting.json`
+3. `npm run test` or `grunt`

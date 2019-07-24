@@ -1,0 +1,17 @@
+{
+    "smtp":{
+        "server": "smtp.gmail.com",
+        "send_address": "***@gmail.com",
+        "credential": {
+            "userid": "***@gmail.com",
+            "password": "****"
+        }
+    },
+    "imap":{
+        "server": "imap.gmail.com",
+        "credential": {
+            "userid": "***@gmail.com",
+            "password": "****"
+        }
+    }
+}
