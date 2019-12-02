@@ -5,7 +5,7 @@
   "dependencies": {
     "imap": "^0.8.19",
     "mailparser-mit": "git+https://github.com/unirobot/mailparser-mit.git",
-    "nodemailer": "^4.6.4",
+    "nodemailer": "^4.7.0",
     "poplib": "^0.1.7"
   },
   "repository": {
